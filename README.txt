@@ -6,5 +6,4 @@ hoàn chỉnh boostrap(những việc đã sửa):
 - Thứ 5: ở section SCHEDULE chỉnh lại id và đường dẫn của các lab theo đúng tên và thứ tự, đồng thời tạo bảng phân công công việc cho cả 10 lab
 - Thứ 6: ở section ABOUT xóa List Group Item có hình máy bay bị dư thừa không dùng và chỉnh lại so le các List Group còn lại
 - Thứ 7: ở section MEMBER xóa đi 2 content(mỗi content chứa 1 row) chuyển lại thành 1 content chứa 2 row và thay đổi
-	trong target thành blank cho các đường link dẫn về trang từng thành viên, đồng thời thêm hiệu ứng Trigger cho 
-	các biểu tượng link dẫn về trang các thành viên.
+	trong target thành blank cho các đường link dẫn về trang từng thành viên
