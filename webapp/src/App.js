@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Menu from './components/Menu'
+import Header from './components/Header'
+import Footer from './components/Footer';
+import RounterURL from './rounter/RounterURL';
+import Schedule from './components/Schedule';
+import Technology from './components/Technology';
+import Technical from './components/Technical';
+import About from './components/About';
+import Member from './components/Member';
+import Contact from './components/Contact';
 
+const sections = [
+  {id:1, component: null, title: 'Home', url: '/'},
+  {id:2, component: Schedule, title: 'Schedule', url: '/schedule'},
+  {id:3, component: Technology, title: 'Technology', url: '/technology'},
+  {id:4, component: Technical, title: 'Technical', url: '/technical'},
+  {id:5, component: About, title: 'About', url: '/about'},
+  {id:6, component: Member, title: 'Member', url: '/member'},
+  {id:7, component: Contact, title: 'Contact', url: '/contact'}
+]
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Menu sections={sections}  /> <hr></hr>
+      <Header />
+      <RounterURL sections = {sections} />
+      <Footer />
     </div>
   );
 }
