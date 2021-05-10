@@ -1,6 +1,5 @@
 import React from 'react';
 import Menu from './components/Menu'
-import Header from './components/Header'
 import Footer from './components/Footer';
 import RounterURL from './rounter/RounterURL';
 import Schedule from './components/Schedule';
@@ -9,9 +8,10 @@ import Technical from './components/Technical';
 import About from './components/About';
 import Member from './components/Member';
 import Contact from './components/Contact';
+import Home from './components/Home';
 
 const sections = [
-  {id:1, component: null, title: 'Home', url: '/'},
+  {id:1, component: Home , title: 'Home', url: '/'},
   {id:2, component: Schedule, title: 'Schedule', url: '/schedule'},
   {id:3, component: Technology, title: 'Technology', url: '/technology'},
   {id:4, component: Technical, title: 'Technical', url: '/technical'},
@@ -23,7 +23,6 @@ function App() {
   return (
     <div>
       <Menu sections={sections}  /> <hr></hr>
-      <Header />
       <RounterURL sections = {sections} />
       <Footer />
     </div>

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 class Member extends Component {
-    render() {
-        return (
-            <div>
-                <section className="bg-light" id="member">
+  render() {
+    return (
+      <div>
+        <section className="bg-light" id="member">
           <div className="container">
             <div className="row">
               <div className="col-sm-4">
@@ -12,9 +12,9 @@ class Member extends Component {
                   <h4>Le Quoc Thinh</h4>
                   <p className="text-muted">Leader</p>
                   <ul className="list-inline social-buttons">
-                    <li className="list-inline-item"><a target="_blank" href="https://19130215hci2021.tk"><i className="fa fa-link" /></a></li>
-                    <li className="list-inline-item"><a href="https://www.facebook.com/unlocker0808"><i className="fa fa-facebook" /></a></li>
-                    <li className="list-inline-item"><a href="https://github.com/unlocker0808"><i className="fa fa-github" /></a></li>
+                    <li className="list-inline-item"><a href="https://19130215hci2021.tk" target="_blank"><i className="fa fa-link" /></a></li>
+                    <li className="list-inline-item"><a href="https://www.facebook.com/unlocker0808" target="_blank"><i className="fa fa-facebook" /></a></li>
+                    <li className="list-inline-item"><a href="https://github.com/unlocker0808" target="_blank"><i className="fa fa-github" /></a></li>
                   </ul>
                 </div>
               </div>
@@ -24,8 +24,8 @@ class Member extends Component {
                   <p className="text-muted">Designing UX/UI</p>
                   <ul className="list-inline social-buttons">
                     <li className="list-inline-item"><a href="https://19130120.tk" target="_blank"><i className="fa fa-link" /></a></li>
-                    <li className="list-inline-item"><a href="https://www.facebook.com/Ya.Tanloc/"><i className="fa fa-facebook" /></a></li>
-                    <li className="list-inline-item"><a href="https://github.com/ErwinCao01"><i className="fa fa-github" /></a></li>
+                    <li className="list-inline-item"><a href="https://www.facebook.com/Ya.Tanloc/" target="_blank"><i className="fa fa-facebook" /></a></li>
+                    <li className="list-inline-item"><a href="https://github.com/ErwinCao01" target="_blank"><i className="fa fa-github" /></a></li>
                   </ul>
                 </div>
               </div>
@@ -35,8 +35,8 @@ class Member extends Component {
                   <p className="text-muted">Lead Developer</p>
                   <ul className="list-inline social-buttons">
                     <li className="list-inline-item"><a href="https://19130128.tk" target="_blank"><i className="fa fa-link" /></a></li>
-                    <li className="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100035240593106"><i className="fa fa-facebook" /></a></li>
-                    <li className="list-inline-item"><a href="https://github.com/NguyenDuyLong1973"><i className="fa fa-github" /></a></li>
+                    <li className="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100035240593106" target="_blank"><i className="fa fa-facebook" /></a></li>
+                    <li className="list-inline-item"><a href="https://github.com/NguyenDuyLong1973" target="_blank"><i className="fa fa-github" /></a></li>
                   </ul>
                 </div>
               </div>
@@ -47,9 +47,9 @@ class Member extends Component {
                   <h4>Luong Huu Luan</h4>
                   <p className="text-muted">Developer</p>
                   <ul className="list-inline social-buttons">
-                    <li className="list-inline-item"><a href="https://19130131.tk" target="_blank"><i className="fa fa-link" style={{textShadow: '0px 0px'}} /></a></li>
-                    <li className="list-inline-item"><a href="https://www.facebook.com/tuiluanne"><i className="fa fa-facebook" /></a></li>
-                    <li className="list-inline-item"><a href="https://github.com/luongluanmpt"><i className="fa fa-github" /></a></li>
+                    <li className="list-inline-item"><a href="https://19130131.tk" target="_blank"><i className="fa fa-link" style={{ textShadow: '0px 0px' }} /></a></li>
+                    <li className="list-inline-item"><a href="https://www.facebook.com/tuiluanne" target="_blank"><i className="fa fa-facebook" /></a></li>
+                    <li className="list-inline-item"><a href="https://github.com/luongluanmpt" target="_blank"><i className="fa fa-github" /></a></li>
                   </ul>
                 </div>
               </div>
@@ -59,17 +59,17 @@ class Member extends Component {
                   <p className="text-muted">Developer</p>
                   <ul className="list-inline social-buttons">
                     <li className="list-inline-item"><a href="https://19130172.tk" target="_blank"><i className="fa fa-link" /></a></li>
-                    <li className="list-inline-item"><a href="https://www.facebook.com/NCP.NCQN"><i className="fa fa-facebook" /></a></li>
-                    <li className="list-inline-item"><a href="https://github.com/ncp204"><i className="fa fa-github" /></a></li>
+                    <li className="list-inline-item"><a href="https://www.facebook.com/NCP.NCQN" target="_blank"><i className="fa fa-facebook" /></a></li>
+                    <li className="list-inline-item"><a href="https://github.com/ncp204" target="_blank"><i className="fa fa-github" /></a></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </section>
-            </div>
-        );
-    }
+      </div>
+    );
+  }
 }
 
 export default Member;
