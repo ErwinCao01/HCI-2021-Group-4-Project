@@ -1,0 +1,26 @@
+.div-technical{
+    padding: 10px;
+    margin: 100px 50px;
+}
+.title-create-firebase {
+    text-align: center;
+    color: red;
+}
+.text-for-h3 {
+    
+}
+.text-content {
+    font-size: larger;
+}
+.div-tutorial {
+    margin: 10px;
+}
+.img-tutorial {
+    max-width: 930px;
+}
+a.tutorial-link:hover {
+    background-color: green;
+}
+.div-tutorial {
+    max-width: fit-content;
+}
