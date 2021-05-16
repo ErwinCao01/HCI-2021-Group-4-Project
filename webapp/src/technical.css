@@ -6,9 +6,7 @@
     text-align: center;
     color: red;
 }
-.text-for-h3 {
-    
-}
+
 .text-content {
     font-size: larger;
 }
@@ -20,6 +18,7 @@
 }
 a.tutorial-link:hover {
     background-color: green;
+    font-size: 150%;
 }
 .div-tutorial {
     max-width: fit-content;
