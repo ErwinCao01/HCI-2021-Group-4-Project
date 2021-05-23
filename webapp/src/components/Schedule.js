@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 class Schedule extends Component {
-  render() {
-    return (
-      <div>
-        <section id="schedule" style={{ height: '700px' }}>
+    render() {
+        return (
+            <div>
+                <section id="schedule" style={{height: '700px'}}>
           <div className="container">
             <div className="row">
-              <div className="col-lg-12 text-center" style={{ height: '87px', margin: '-9px' }}>
+              <div className="col-lg-12 text-center" style={{height: '87px', margin: '-9px'}}>
                 <h2 className="text-uppercase section-heading">Schedule</h2>
                 <h3 className="text-muted section-subheading" />
               </div>
@@ -33,7 +33,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -41,7 +41,7 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
+                        <tbody style={{textAlign: 'center'}}>
                           <tr>
                             <td>1</td>
                             <td>19130215</td>
@@ -85,7 +85,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -93,7 +93,7 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
+                        <tbody style={{textAlign: 'center'}}>
                           <tr>
                             <td>1</td>
                             <td>19130215</td>
@@ -137,7 +137,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -145,7 +145,7 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
+                        <tbody style={{textAlign: 'center'}}>
                           <tr>
                             <td>1</td>
                             <td>19130215</td>
@@ -189,7 +189,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -197,7 +197,7 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
+                        <tbody style={{textAlign: 'center'}}>
                           <tr>
                             <td>1</td>
                             <td>19130215</td>
@@ -241,7 +241,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -249,7 +249,7 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
+                        <tbody style={{textAlign: 'center'}}>
                           <tr>
                             <td>1</td>
                             <td>19130215</td>
@@ -293,7 +293,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -301,7 +301,7 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
+                        <tbody style={{textAlign: 'center'}}>
                           <tr>
                             <td>1</td>
                             <td>19130215</td>
@@ -345,7 +345,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -353,8 +353,8 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
-                          <tr>
+                        <tbody style={{textAlign: 'center'}}>
+                        <tr>
                             <td>1</td>
                             <td>19130215</td>
                             <td>Lê Quốc Thịnh<br /></td>
@@ -397,7 +397,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -405,7 +405,7 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
+                        <tbody style={{textAlign: 'center'}}>
                           <tr>
                             <td>1</td>
                             <td>19130215</td>
@@ -449,7 +449,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -457,7 +457,7 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
+                        <tbody style={{textAlign: 'center'}}>
                           <tr>
                             <td>1</td>
                             <td>19130215</td>
@@ -501,7 +501,7 @@ class Schedule extends Component {
                     <div className="table-responsive">
                       <table className="table">
                         <thead>
-                          <tr style={{ textAlign: 'center', borderWidth: '0px', borderStyle: 'none' }}>
+                          <tr style={{textAlign: 'center', borderWidth: '0px', borderStyle: 'none'}}>
                             <th>STT</th>
                             <th>MSSV</th>
                             <th>Họ tên</th>
@@ -509,7 +509,7 @@ class Schedule extends Component {
                             <th>Kết quả</th>
                           </tr>
                         </thead>
-                        <tbody style={{ textAlign: 'center' }}>
+                        <tbody style={{textAlign: 'center'}}>
                           <tr>
                             <td>1</td>
                             <td>19130215</td>
@@ -554,9 +554,9 @@ class Schedule extends Component {
             </div>
           </div>
         </section>
-      </div>
-    );
-  }
+            </div>
+        );
+    }
 }
 
 export default Schedule;

@@ -25,19 +25,20 @@ class Result extends Component {
                                                 <div>
                                                     <h4>Trang web Project</h4>
                                                     <ul>
-                                                        <li></li>
-                                                        <li></li>
+                                                        <li>Login, register, forgot password</li>
+                                                        <li>Footer, menu, search</li>
+                                                        <li>Trang download</li>
+                                                        <li>Trang contact</li>
+
                                                     </ul>
                                                     <h4>Trang web Nhóm</h4>
                                                     <ul>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
+                                                        <li>Trang schedule</li>
                                                     </ul>
                                                     <h4>Đánh giá</h4>
                                                     <ul>
                                                         <li>Hoàn thành: 100%</li>
-                                                        <li>Đóng góp: 20%</li>
+                                                        <li>Đóng góp: 80%</li>
                                                     </ul>
                                                 </div>
                                             </div>
