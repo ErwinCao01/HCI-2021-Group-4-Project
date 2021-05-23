@@ -104,15 +104,14 @@
 .card-imagia .user-imagia {
   border-radius: 50%;
   display: block;
-  height: 130px;
+  height: 100px;
   margin: -65px auto 0;
   overflow: hidden;
-  width: 120px;
+  width: 100px;
 }
 
 .card-imagia .user-imagia img {
   background: #FFFFFF;
-  border: 5px solid #FFFFFF;
   width: 100%;
 }
 
