@@ -63,6 +63,7 @@ class Menu extends React.Component {
                 ))}
               </ul>
             </div>
+            <a class="btn btn-primary" role="button" href="https://projectteam4.tk/">PROJECT</a>
           </div>
         </nav>
       </div>

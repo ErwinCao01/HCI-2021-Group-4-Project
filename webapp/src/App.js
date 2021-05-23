@@ -8,7 +8,6 @@ import About from './components/About';
 import Member from './components/Member';
 import Contact from './components/Contact';
 import Home from './components/Home';
-import Project from './components/Project';
 import Result from './components/Result';
 
 const sections = [
@@ -18,8 +17,7 @@ const sections = [
   {id:4, component: Technical, title: 'Technical', url: '/technical'},
   {id:5, component: About, title: 'About', url: '/about'},
   {id:6, component: Member, title: 'Member', url: '/member'},
-  {id:7, component: Project, title: 'Project', url: 'https://projectteam4.tk/', target: "_blank"},
-  {id:8, component: Contact, title: 'Contact', url: '/contact'},
+  {id:7, component: Contact, title: 'Contact', url: '/contact'},
 ]
 function App() {
   return (
