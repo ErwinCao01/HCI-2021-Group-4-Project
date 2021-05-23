@@ -12,7 +12,7 @@ class Result extends Component {
                                 <div className="card-container-imagia">
                                     <div className="card-imagia">
                                         <div className="front-imagia">
-                                            <div className="cover-imagia"><img alt="" src="https://unsplash.it/720/500?image=1067" /></div>
+                                            <div className="cover-imagia"><img alt="" src="assets/img/result/img-front-result-1.jpg" /></div>
                                             <div className="user-imagia"><img className="img-circle" alt="" src="assets/img/team/thinhngu.jpg" /></div>
                                             <div className="content-imagia">
                                                 <h3 className="name-imagia">Lê Quốc Thịnh</h3>
@@ -92,7 +92,7 @@ class Result extends Component {
                                 <div className="card-container-imagia">
                                     <div className="card-imagia">
                                         <div className="front-imagia">
-                                            <div className="cover-imagia"><img alt="" src="https://unsplash.it/720/500?image=1067" /></div>
+                                            <div className="cover-imagia"><img alt="" src="assets/img/result/img-front-result-1.jpg" /></div>
                                             <div className="user-imagia"><img className="img-circle" alt="" src="assets/img/team/138299251_440090247175658_4216634827208895764_n.jpg" /></div>
                                             <div className="content-imagia">
                                                 <h3 className="name-imagia">Nguyễn Dũy Long</h3>
