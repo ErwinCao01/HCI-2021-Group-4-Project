@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import RounterURL from './rounter/RounterURL';
 import Schedule from './components/Schedule';
 import Technical from './components/Technical';
-import About from './components/About';
+import StyleGuide from './components/StyleGuide';
 import Member from './components/Member';
 import Contact from './components/Contact';
 import Home from './components/Home';
@@ -15,7 +15,7 @@ const sections = [
   {id:2, component: Schedule, title: 'Schedule', url: '/schedule'},
   {id:3, component: Result, title: 'Result', url: '/result'},
   {id:4, component: Technical, title: 'Technical', url: '/technical'},
-  {id:5, component: About, title: 'About', url: '/about'},
+  {id:5, component: StyleGuide, title: 'Style Guide', url: '/StyleGuide'},
   {id:6, component: Member, title: 'Member', url: '/member'},
   {id:7, component: Contact, title: 'Contact', url: '/contact'},
 ]
