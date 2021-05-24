@@ -153,14 +153,13 @@ class Result extends Component {
                                                 <div>
                                                     <h4>Trang web Project</h4>
                                                     <ul>
-                                                        <li></li>
-                                                        <li></li>
+                                                        <li>Trang Vaccin</li>
+                                                        <li>Tạo Tree Diagram</li>
                                                     </ul>
                                                     <h4>Trang web Nhóm</h4>
                                                     <ul>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
+                                                        <li>Hỗ trợ tìm kiếm template</li>
+                                                        <li>Hỗ trợ chuyển code sang ReactJS</li>
                                                     </ul>
                                                     <h4>Đánh giá</h4>
                                                     <ul>
