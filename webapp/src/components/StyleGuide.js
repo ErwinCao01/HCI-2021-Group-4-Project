@@ -291,15 +291,27 @@ class StyleGuide extends Component {
                 </div>
                 <h3>Small avatar</h3>
                 <div className="rounded-circle mx-auto small-avt div-icon">
-                  <p className="t-center"> 100x100 <br/>boder radius: 50%</p>
+                  <p className="t-center">
+                    {" "}
+                    100x100 <br />
+                    boder radius: 50%
+                  </p>
                 </div>
                 <h3>Large avatar</h3>
                 <div className="rounded-circle mx-auto large-avt div-icon">
-                  <p className="t-center"> 225x225 <br/>boder radius: 50%</p>
+                  <p className="t-center">
+                    {" "}
+                    225x225 <br />
+                    boder radius: 50%
+                  </p>
                 </div>
                 <h3>technical image</h3>
                 <div className="mx-auto img-large div-icon">
-                  <p className="t-center"> 225x225 <br/>boder radius: 50%</p>
+                  <p className="t-center">
+                    {" "}
+                    225x225 <br />
+                    boder radius: 50%
+                  </p>
                 </div>
               </div>
               <div
@@ -308,7 +320,16 @@ class StyleGuide extends Component {
                 role="tabpanel"
                 aria-labelledby="pills-FileAndDirectory-tab"
               >
-                luan
+                <div className="mx-auto img-large ">
+                  <p>Tree Diagram Web Project</p>
+                  <img src="assets/img/tree.jpg" />
+                </div>
+                <div style={{ marginTop: "400px" }}>
+                  <div className="mx-auto img-large ">
+                  <p>Tree Diagram Web Nhóm</p>
+                    <img src="assets/img/TREE2.PNG" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
