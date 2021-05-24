@@ -24,22 +24,13 @@ class Menu extends React.Component {
               }}
             >
               <br />
-              <picture
-                style={{ height: "100px", width: "100px", marginLeft: "0px" }}
-              >
                 <img
-                  src="assets/img/about/logo%20Website.png"
-                  width={150}
-                  height={150}
+                  src="assets/img/logoWebsite.png"
                   style={{
                     width: "100px",
                     height: "100px",
-                    textAlign: "center",
-                    margin: "0px",
-                    marginTop: "0px",
                   }}
                 />
-              </picture>
             </a>
             <button
               data-bs-toggle="collapse"

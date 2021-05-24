@@ -15,6 +15,7 @@
 }
 .img-tutorial {
     max-width: 930px;
+    max-height: 473px;
 }
 a.tutorial-link:hover {
     background-color: green;

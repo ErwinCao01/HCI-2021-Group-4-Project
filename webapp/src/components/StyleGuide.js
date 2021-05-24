@@ -1,69 +1,321 @@
-import React, { Component } from 'react';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { Component } from "react";
 
 class StyleGuide extends Component {
-    render() {
-        return (
-            <div>
-                <section id="about">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12 text-center">
-                <h2 className="text-uppercase">About</h2>
-                <h3 className="text-muted section-subheading">Timeline of our project</h3>
+  render() {
+    return (
+      <div>
+        <section id="about">
+          <div className="style-guide-div">
+            <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li className="nav-item" role="presentation">
+                <button
+                  className="nav-link active result-page"
+                  id="pills-Typography-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Typography"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Typography"
+                  aria-selected="true"
+                >
+                  Typography
+                </button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button
+                  className="nav-link result-page"
+                  id="pills-Component-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Component"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Component"
+                  aria-selected="false"
+                >
+                  Component
+                </button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button
+                  className="nav-link result-page"
+                  id="pills-ColorPalette-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-ColorPalette"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-ColorPalette"
+                  aria-selected="false"
+                >
+                  Color palette
+                </button>
+              </li>
+
+              <li className="nav-item result-page" role="presentation">
+                <button
+                  className="nav-link"
+                  id="pills-ImageAndIcon-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-ImageAndIcon"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-ImageAndIcon"
+                  aria-selected="false"
+                >
+                  Image and icon
+                </button>
+              </li>
+              <li className="nav-item result-page" role="presentation">
+                <button
+                  className="nav-link"
+                  id="pills-FileAndDirectory-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-FileAndDirectory"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-FileAndDirectory"
+                  aria-selected="false"
+                >
+                  File and directory
+                </button>
+              </li>
+            </ul>
+            <div className="tab-content" id="pills-tabContent">
+              <div
+                className="tab-pane fade show active"
+                id="pills-Typography"
+                role="tabpanel"
+                aria-labelledby="pills-Typography-tab"
+              >
+                <h2>Typography of website group and project.</h2>
+                <hr />
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <p>Paragraph</p>
+                <p className="text-danger">Danger text</p>
+                <p className="text-warning">Warning text</p>
+                <p className="text-success">Success text</p>
+                <p className="text-dark">Dark text</p>
               </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-12">
-                <ul className="list-group timeline">
-                  <li className="list-group-item d-xl-flex justify-content-xl-start">
-                    <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/1.jpg" /></div>
-                    <div className="text-end timeline-panel">
-                      <div className="timeline-heading">
-                        <h4>Early 3-2021</h4>
-                        <h4 className="subheading">Our Humble Beginnings</h4>
-                      </div>
-                      <div className="timeline-body">
-                        <p className="text-muted">We start to learn Human-Computer Interaction and access to Web Programming</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="list-group-item d-xl-flex justify-content-xl-end">
-                    <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/3.jpg" /></div>
-                    <div className="text-start timeline-panel" style={{marginLeft: '560px', textAlign: 'left'}}>
-                      <div className="timeline-heading">
-                        <h4>December 2012</h4>
-                        <h4 className="subheading">Transition to Full Service</h4>
-                      </div>
-                      <div className="timeline-body">
-                        <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="list-group-item d-xl-flex justify-content-xl-start timeline-inverted">
-                    <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/4.jpg" /></div>
-                    <div className="text-end timeline-panel" style={{textAlign: 'left', marginRight: '0px'}}>
-                      <div className="timeline-heading">
-                        <h4>July 2014</h4>
-                        <h4 className="subheading">Phase Two Expansion</h4>
-                      </div>
-                      <div className="timeline-body">
-                        <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="list-group-item timeline-inverted">
-                    <div className="timeline-image">
-                      <h4>Be Part<br />&nbsp;Of Our<br />&nbsp;Story!</h4>
-                    </div>
-                  </li>
-                </ul>
+              <div
+                className="tab-pane fade"
+                id="pills-Component"
+                role="tabpanel"
+                aria-labelledby="pills-Component-tab"
+              >
+                <h2>Button</h2>
+                <hr />
+                <button className="btn btn-primary-login" type="button">
+                  <strong>Login button</strong>
+                </button>
+                <button className="btn btn-outline-info" type="button">
+                  <strong>Control button</strong>
+                </button>
+                <button className="btn btn-secondary" type="button">
+                  <strong>Secondary button</strong>
+                </button>
+                <hr />
+                <h2>Table of content</h2>
+                <br />
+                <table className="table">
+                  <thead>
+                    <tr
+                      style={{
+                        textAlign: "center",
+                        borderWidth: "0px",
+                        borderStyle: "none",
+                      }}
+                    >
+                      <th>STT</th>
+                      <th>MSSV</th>
+                      <th>Họ tên</th>
+                      <th>Công việc được giao</th>
+                      <th>Kết quả</th>
+                    </tr>
+                  </thead>
+                  <tbody style={{ textAlign: "center" }}>
+                    <tr>
+                      <td>1</td>
+                      <td>19130215</td>
+                      <td>
+                        Lê Quốc Thịnh
+                        <br />
+                      </td>
+                      <td>Tìm hiểu về firebase</td>
+                      <td>100%</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>19130120</td>
+                      <td>Cao Huy Tấn Lộc</td>
+                      <td>Tìm hiểu về firebase</td>
+                      <td>100%</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>19130128</td>
+                      <td>Nguyễn Dũy Long</td>
+                      <td>Tìm hiểu về firebase</td>
+                      <td>100%</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>19130131</td>
+                      <td>Lương Hữu Luân</td>
+                      <td>Tìm hiểu về firebase</td>
+                      <td>100%</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>19130172</td>
+                      <td>Nguyễn Công Phúc</td>
+                      <td>Tìm hiểu về firebase</td>
+                      <td>100%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div
+                className="tab-pane fade"
+                id="pills-ColorPalette"
+                role="tabpanel"
+                aria-labelledby="pills-ColorPalette-tab"
+              >
+                <h2>Color palette</h2>
+                <hr />
+                <div>
+                  <div>
+                    <h3>Group website primary color</h3>
+                    <p>
+                      Color: <strong>#212529</strong>
+                    </p>
+                    <span
+                      className="swatch-preview"
+                      style={{ backgroundColor: "#212529" }}
+                    />
+                  </div>
+                  <br />
+                  <div>
+                    <h3>Group website secondary color</h3>
+                    <p>
+                      Color: <strong>#FEC503</strong>
+                    </p>
+                    <span
+                      className="swatch-preview"
+                      style={{ backgroundColor: "#fec503" }}
+                    />
+                  </div>
+                  <br />
+                  <div>
+                    <h3>Project website primary color</h3>
+                    <p>
+                      Color: <strong>#009CD7</strong>
+                    </p>
+                    <span
+                      className="swatch-preview"
+                      style={{ backgroundColor: "#009cd7" }}
+                    />
+                  </div>
+                  <br />
+                  <div>
+                    <h3>Project website secondary color</h3>
+                    <p>
+                      Color: <strong>#f77f00</strong>
+                    </p>
+                    <span
+                      className="swatch-preview"
+                      style={{ backgroundColor: "#f77f00" }}
+                    />
+                  </div>
+                </div>
+                <br />
+                <h2>Text color of group website</h2>
+                <li style={{ color: "#212529" }}>
+                  Normal text: <strong>#212529</strong>
+                </li>
+                <li style={{ color: "#fed136" }}>
+                  Text hoover: <strong>#fed136</strong>
+                </li>
+                <br />
+                <h2>Text color of project website</h2>
+                <li style={{ color: "#212529" }}>
+                  Normal text: <strong> #212529</strong>
+                </li>
+                <li style={{ color: "#003893" }}>
+                  Link: <strong>#003893</strong>
+                </li>
+                <li style={{ color: "#ff0000" }}>
+                  Link hoover: <strong>#FF0000</strong>
+                </li>
+              </div>
+
+              <div
+                className="tab-pane fade"
+                id="pills-ImageAndIcon"
+                role="tabpanel"
+                aria-labelledby="pills-ImageAndIcon-tab"
+              >
+                <h2>Image and icon</h2>
+                <h3>Social icon</h3>
+                <div className="social-icon-styleGuide">
+                  <ul className="list-inline social-buttons">
+                    <li className="list-inline-item">
+                      <a href="#" target="_blank">
+                        <i className="fa fa-link" />
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a href="#" target="_blank">
+                        <i className="fa fa-facebook" />
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a href="#" target="_blank">
+                        <i className="fa fa-github" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h3>Logo</h3>
+                <div className="div-container-logo">
+                  <img
+                    className="img-icon"
+                    src="assets/img/logoWebsite.png"
+                    alt="logoWebsite"
+                  />
+                  <div className="div-icon">
+                    <p className="t-center">100x100</p>
+                  </div>
+                </div>
+                <h3>Small avatar</h3>
+                <div className="rounded-circle mx-auto small-avt div-icon">
+                  <p className="t-center"> 100x100 <br/>boder radius: 50%</p>
+                </div>
+                <h3>Large avatar</h3>
+                <div className="rounded-circle mx-auto large-avt div-icon">
+                  <p className="t-center"> 225x225 <br/>boder radius: 50%</p>
+                </div>
+                <h3>technical image</h3>
+                <div className="mx-auto img-large div-icon">
+                  <p className="t-center"> 225x225 <br/>boder radius: 50%</p>
+                </div>
+              </div>
+              <div
+                className="tab-pane fade"
+                id="pills-FileAndDirectory"
+                role="tabpanel"
+                aria-labelledby="pills-FileAndDirectory-tab"
+              >
+                luan
               </div>
             </div>
           </div>
         </section>
-            </div>
-        );
-    }
+      </div>
+    );
+  }
 }
 
 export default StyleGuide;

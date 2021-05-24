@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from 'react';
 
 class Member extends Component {
