@@ -309,7 +309,7 @@ class StyleGuide extends Component {
                 <div className="mx-auto img-large div-icon">
                   <p className="t-center">
                     {" "}
-                    225x225 <br />
+                    930x473 <br />
                     boder radius: 50%
                   </p>
                 </div>
