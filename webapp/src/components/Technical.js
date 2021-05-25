@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../technical.css";
 import FirebaseTutorial from "./FirebaseTutorial";
 class Technical extends Component {
   render() {

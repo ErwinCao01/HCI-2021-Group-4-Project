@@ -10197,3 +10197,123 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+/* technical */
+.div-technical {
+  padding: 10px;
+  margin: 100px 50px;
+}
+.title-create-firebase {
+  text-align: center;
+  color: red;
+}
+
+.text-content {
+  font-size: larger;
+}
+.div-tutorial {
+  margin: 10px;
+}
+.img-tutorial {
+  max-width: 930px;
+  max-height: 473px;
+}
+a.tutorial-link:hover {
+  background-color: green;
+  font-size: 150%;
+}
+.div-tutorial {
+  max-width: fit-content;
+}
+/* styleGuide */
+.btn-primary.focus,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3;
+  box-shadow: 0 0 0 0.2rem #42dca3;
+}
+
+.btn-primary-login {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3;
+}
+
+.btn-primary-login:hover {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3;
+}
+
+.btn-primary.disabled-login,
+.btn-primary-login:disabled {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3;
+}
+
+.btn-primary-login:not(:disabled):not(.disabled).active,
+.btn-primary-login:not(:disabled):not(.disabled):active,
+.show > .btn-primary-login.dropdown-toggle {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3;
+}
+
+.btn-primary-login:not(:disabled):not(.disabled).active:focus,
+.btn-primary-login:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary-login.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #42dca3;
+}
+.detail-color-login {
+  color: #42dca3;
+}
+.swatch-preview {
+  order-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  float: left;
+  height: 60px;
+  width: 100%;
+  margin: 0 0.8em 0.5em 0;
+}
+.img-icon {
+  width: 100px;
+  height: 100px;
+}
+.div-container-logo {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+.div-icon {
+  text-align: center;
+  background-color: navajowhite;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: black 1px solid;
+}
+.t-center {
+  margin-top: auto;
+}
+.style-guide-div {
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.small-avt {
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+}
+.large-avt {
+  border: 1px solid;
+  height: 225px;
+  width: 225px;
+}
+.img-large {
+  width: 930px;
+  height: 473px;
+}
