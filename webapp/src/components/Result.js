@@ -33,9 +33,8 @@ class Result extends Component {
                                             </div>
                                             <div className="footer-imagia">
                                                 <span>
-                                                    <i className="fa fa-plus" /> Di chuyển vào thẻ để xem
-                          đánh giá
-                        </span>
+                                                    <i className="fa fa-plus" /> Di chuyển vào thẻ để xem đánh giá
+                                                </span>
                                             </div>
                                         </div>
                                         <div className="back-imagia">
@@ -60,9 +59,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary" role="button">
-                                                    Đánh giá cá nhân
-                        </a>
+                                                <a class="btn btn-primary" role="button" href="https://19130215hci2021.tk/#4" target="_blank">Đánh giá cá nhân</a>
                                             </div>
                                         </div>
                                     </div>
@@ -112,9 +109,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary" role="button">
-                                                    Đánh giá cá nhân
-                        </a>
+                                                <a class="btn btn-primary" role="button">Đánh giá cá nhân</a>
                                             </div>
                                         </div>
                                     </div>
@@ -143,9 +138,8 @@ class Result extends Component {
                                             </div>
                                             <div className="footer-imagia">
                                                 <span>
-                                                    <i className="fa fa-plus" /> Di chuyển vào thẻ để xem
-                          đánh giá
-                        </span>
+                                                    <i className="fa fa-plus" /> Di chuyển vào thẻ để xem đánh giá
+                                                </span>
                                             </div>
                                         </div>
                                         <div className="back-imagia">
@@ -169,9 +163,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary" role="button">
-                                                    Đánh giá cá nhân
-                        </a>
+                                                <a class="btn btn-primary" role="button">Đánh giá cá nhân</a>
                                             </div>
                                         </div>
                                     </div>
@@ -197,9 +189,8 @@ class Result extends Component {
                                             </div>
                                             <div className="footer-imagia">
                                                 <span>
-                                                    <i className="fa fa-plus" /> Di chuyển vào thẻ để xem
-                          đánh giá
-                        </span>
+                                                    <i className="fa fa-plus" /> Di chuyển vào thẻ để xem đánh giá
+                                                </span>
                                             </div>
                                         </div>
                                         <div className="back-imagia">
@@ -223,14 +214,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a
-                                                    class="btn btn-primary"
-                                                    role="button"
-                                                    href="https://19130131.tk/"
-                                                    target="_blank"
-                                                >
-                                                    Đánh giá cá nhân
-                        </a>
+                                                <a class="btn btn-primary" role="button" href="https://19130131.tk/" target="_blank"> Đánh giá cá nhân </a>
                                             </div>
                                         </div>
                                     </div>
@@ -240,7 +224,12 @@ class Result extends Component {
                                 <div className="card-container-imagia">
                                     <div className="card-imagia">
                                         <div className="front-imagia">
-                                            <div className="cover-imagia cover-gradient" />
+                                            <div className="cover-imagia">
+                                                <img
+                                                    alt=""
+                                                    src="assets/img/result/img-front-result-1.jpg"
+                                                />
+                                            </div>
                                             <div className="user-imagia">
                                                 <img
                                                     className="img-circle"
@@ -264,14 +253,14 @@ class Result extends Component {
                                                 <div>
                                                     <h4>Trang web Project</h4>
                                                     <ul>
-                                                        <li></li>
-                                                        <li></li>
+                                                        <li>Làm trang Home</li>
+                                                        <li>Làm tìm kiếm, test web</li>
                                                     </ul>
                                                     <h4>Trang web Nhóm</h4>
                                                     <ul>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
+                                                        <li>Chuyển html qua react</li>
+                                                        <li>Chia component, chia router</li>
+                                                        <li>Làm trang Result, button Project</li>
                                                     </ul>
                                                     <h4>Đánh giá</h4>
                                                     <ul>
@@ -281,9 +270,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary" role="button">
-                                                    Đánh giá cá nhân
-                        </a>
+                                                <a class="btn btn-primary" role="button" href="http://19130172.tk/" target="_blank"> Đánh giá cá nhân </a>
                                             </div>
                                         </div>
                                     </div>
