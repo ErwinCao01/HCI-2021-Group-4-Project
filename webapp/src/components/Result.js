@@ -56,7 +56,7 @@ class Result extends Component {
                                                         <li>Hoàn thành: 100%</li>
                                                         <li>Đóng góp: 80%</li>
                                                     </ul>
-                                                </div>
+                                                </div> 
                                             </div>
                                             <div className="footer-imagia">
                                                 <a class="btn btn-primary" role="button" href="https://19130215hci2021.tk/#4" target="_blank">Đánh giá cá nhân</a>
@@ -163,7 +163,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary" role="button">Đánh giá cá nhân</a>
+                                                <a class="btn btn-primary"  href="https://19130128.tk" role="button">Đánh giá cá nhân</a>
                                             </div>
                                         </div>
                                     </div>
