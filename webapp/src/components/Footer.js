@@ -43,6 +43,7 @@ class Footer extends Component {
             </div>
           </div>
         </footer>
+        <a class="cd-top" href="#"><i class="fa fa-chevron-up icon" aria-hidden="true"></i></a>
       </div>
     );
   }
