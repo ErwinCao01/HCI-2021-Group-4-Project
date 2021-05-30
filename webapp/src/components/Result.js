@@ -56,7 +56,7 @@ class Result extends Component {
                                                         <li>Hoàn thành: 100%</li>
                                                         <li>Đóng góp: 23%</li>
                                                     </ul>
-                                                </div> 
+                                                </div>
                                             </div>
                                             <div className="footer-imagia">
                                                 <a class="btn btn-primary" role="button" href="https://19130215hci2021.tk/#4" target="_blank">Đánh giá cá nhân</a>
@@ -109,7 +109,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                            <a class="btn btn-primary" role="button" href="https://19130120.tk" target="_blank">Đánh giá cá nhân</a>
+                                                <a class="btn btn-primary" role="button" href="https://19130120.tk" target="_blank">Đánh giá cá nhân</a>
                                             </div>
                                         </div>
                                     </div>
@@ -163,7 +163,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary"  href="https://19130128.tk" role="button" target="_blank">Đánh giá cá nhân</a>
+                                                <a class="btn btn-primary" href="https://19130128.tk" role="button" target="_blank">Đánh giá cá nhân</a>
                                             </div>
                                         </div>
                                     </div>
@@ -260,7 +260,7 @@ class Result extends Component {
                                                     <ul>
                                                         <li>Chuyển html qua react</li>
                                                         <li>Chia component, chia router</li>
-                                                        <li>Làm trang Result, button</li>
+                                                        <li>Làm trang Result, Button Scroll to top</li>
                                                     </ul>
                                                     <h4>Đánh giá</h4>
                                                     <ul>
