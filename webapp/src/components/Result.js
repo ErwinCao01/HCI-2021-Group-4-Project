@@ -54,7 +54,7 @@ class Result extends Component {
                                                     <h4>Đánh giá</h4>
                                                     <ul>
                                                         <li>Hoàn thành: 100%</li>
-                                                        <li>Đóng góp: 80%</li>
+                                                        <li>Đóng góp: 23%</li>
                                                     </ul>
                                                 </div> 
                                             </div>
@@ -104,7 +104,7 @@ class Result extends Component {
                                                     <h4>Đánh giá</h4>
                                                     <ul>
                                                         <li>Hoàn thành: 100%</li>
-                                                        <li>Đóng góp: 20%</li>
+                                                        <li>Đóng góp: 17%</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -158,12 +158,12 @@ class Result extends Component {
                                                     <h4>Đánh giá</h4>
                                                     <ul>
                                                         <li>Hoàn thành: 100%</li>
-                                                        <li>Đóng góp: 20%</li>
+                                                        <li>Đóng góp: 17%</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary"  href="https://19130128.tk" role="button">Đánh giá cá nhân</a>
+                                                <a class="btn btn-primary"  href="https://19130128.tk" role="button" target="_blank">Đánh giá cá nhân</a>
                                             </div>
                                         </div>
                                     </div>
@@ -254,23 +254,23 @@ class Result extends Component {
                                                     <h4>Trang web Project</h4>
                                                     <ul>
                                                         <li>Làm trang Home</li>
-                                                        <li>Làm tìm kiếm, test web</li>
+                                                        <li>Làm search, test web</li>
                                                     </ul>
                                                     <h4>Trang web Nhóm</h4>
                                                     <ul>
                                                         <li>Chuyển html qua react</li>
                                                         <li>Chia component, chia router</li>
-                                                        <li>Làm trang Result, button Project</li>
+                                                        <li>Làm trang Result, button</li>
                                                     </ul>
                                                     <h4>Đánh giá</h4>
                                                     <ul>
                                                         <li>Hoàn thành: 100%</li>
-                                                        <li>Đóng góp: 20%</li>
+                                                        <li>Đóng góp: 23%</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary" role="button" href="http://19130172.tk/" target="_blank"> Đánh giá cá nhân </a>
+                                                <a class="btn btn-primary" role="button" href="http://19130172.tk/result" target="_blank"> Đánh giá cá nhân </a>
                                             </div>
                                         </div>
                                     </div>

@@ -8,7 +8,8 @@ class Home extends Component {
           <div className="container">
             <div className="intro-text">
               <div className="intro-lead-in"><span>WELCOME TO OUR WEBSITE !</span></div>
-              <div className="intro-heading text-uppercase"><span>Have a great day!</span></div><a className="btn btn-primary btn-xl text-uppercase" role="button" href="#services">LEt's go</a>
+              <div className="intro-heading text-uppercase"><span>Have a great day!</span></div>
+              <a class="btn btn-primary btn-xl text-uppercase" role="button" href="https://projectteam4.tk/" target="_blank">Go to Project</a>
             </div>
           </div>
         </header>
