@@ -109,7 +109,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary" role="button">Đánh giá cá nhân</a>
+                                            <a class="btn btn-primary" role="button" href="" target="_blank">Đánh giá cá nhân</a>
                                             </div>
                                         </div>
                                     </div>
