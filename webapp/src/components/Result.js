@@ -254,6 +254,7 @@ class Result extends Component {
                                                     <h4>Trang web Project</h4>
                                                     <ul>
                                                         <li>Làm trang Home</li>
+                                                        <li>Làm Button(material-button-anim)</li>
                                                         <li>Làm search, test web</li>
                                                     </ul>
                                                     <h4>Trang web Nhóm</h4>
