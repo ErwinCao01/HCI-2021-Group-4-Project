@@ -214,7 +214,7 @@ class Result extends Component {
                                                 </div>
                                             </div>
                                             <div className="footer-imagia">
-                                                <a class="btn btn-primary" role="button" href="https://19130131.tk/" target="_blank"> Đánh giá cá nhân </a>
+                                                <a class="btn btn-primary" role="button" href="https://19130131.tk/#result" target="_blank"> Đánh giá cá nhân </a>
                                             </div>
                                         </div>
                                     </div>
