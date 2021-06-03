@@ -4,7 +4,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <header className="masthead" style={{ backgroundImage: 'url("assets/img/header-bg.jpg")' }}>
+        <header className="masthead" style={{ backgroundImage: 'url("assets/img/team/anhnhom.jpg")' }}>
           <div className="container">
             <div className="intro-text">
               <div className="intro-lead-in"><span>WELCOME TO OUR WEBSITE !</span></div>
