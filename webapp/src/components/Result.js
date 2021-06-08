@@ -44,6 +44,7 @@ class Result extends Component {
                                                     <ul>
                                                         <li>Login, register, forgot password</li>
                                                         <li>Footer, menu, search</li>
+                                                        <li>Transition page</li>
                                                         <li>Trang download</li>
                                                         <li>Trang contact</li>
                                                     </ul>
@@ -255,7 +256,7 @@ class Result extends Component {
                                                     <ul>
                                                         <li>Làm trang Home</li>
                                                         <li>Làm Button(material-button-anim)</li>
-                                                        <li>Làm search, test web</li>
+                                                        <li>Làm Search</li>
                                                     </ul>
                                                     <h4>Trang web Nhóm</h4>
                                                     <ul>
